@@ -12,12 +12,12 @@ const stealth = stealthPlugin();
 chromium.use(stealth);
 
 const urls = [
+  "https://lottery.broadwaydirect.com/show/the-lion-king/",
+  "https://lottery.broadwaydirect.com/show/wicked/",
   "https://lottery.broadwaydirect.com/show/dbh-nyc/",
   "https://lottery.broadwaydirect.com/show/mj-ny/",
   // "https://lottery.broadwaydirect.com/show/elf-ny/",
   // "https://lottery.broadwaydirect.com/show/six-ny/",
-  "https://lottery.broadwaydirect.com/show/the-lion-king/",
-  "https://lottery.broadwaydirect.com/show/wicked/",
 ];
 
 urls.forEach((url) => {
